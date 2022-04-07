@@ -209,8 +209,8 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Super + Shift + 1-6** Send the focused window to workspace 1-6 
 - **Control + Alt + Left/Right** Switch to previous or next workspace. Only works if You have 2 workspace opened
 - **Super + R** Resize mode. In resize mode, hit Arrow keys to do resizing. Hit Enter to back to normal mode
-- **Super + C** or **Alt + F4** Close window
-- **Super + Q** Quit i3wm
+- **Super + Shift + Q** or **Alt + F4** Close window
+- **Super + Alt + Shift + Q** Quit i3wm
 - **Super + L** Lockscreen. To unlock, type your user password then hit Enter
 - **Super + Shift + R** Fully reload the configuration file. Hit this after do some modifications in the config file
 - More keybind look on the configuration file.

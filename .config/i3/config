@@ -39,7 +39,7 @@ bindsym XF86AudioPlay exec mpc toggle
 bindsym XF86AudioStop exec mpc stop
 
 # kill focused window
-bindsym $super+c kill
+bindsym $super+Shift+q kill
 bindsym $alt+F4 kill
 
 # change focus
@@ -94,7 +94,7 @@ bindsym $super+Shift+6 move container to workspace 6
 bindsym $super+Shift+r restart
 
 # exit i3
-bindsym $super+q exec "i3-nagbar -t warning -m 'Really, exit?' -b 'Yes' 'i3-msg exit'"
+bindsym $super+$alt+Shift+q exec "i3-nagbar -t warning -m 'Really, exit?' -b 'Yes' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -109,7 +109,7 @@ bindsym $super+r mode "resize"
 # panel
 bar {
         colors {
-        background #2f343f
+        background #2f343fQ
         statusline #2f343f
         separator #4b5262
 
@@ -141,3 +141,5 @@ client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.background           #2f343f
+
+focus_follows_mouse no
