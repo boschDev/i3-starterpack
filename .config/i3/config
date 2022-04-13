@@ -31,6 +31,8 @@ bindsym $super+Shift+g exec geany
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer -q set Master 5%-
 bindsym XF86AudioMute exec amixer set Master toggle
+bindsym XF86AudioMicMute exec amixer set Capture toggle
+bindsym Insert exec amixer set Capture toggle
 
 # music control
 bindsym XF86AudioNext exec mpc next
